@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="/search" method="post">
+    <br>
+    Enter searche ID (integer)
+    Maximum Id <p th:text="${maximum}"></p>
+    <br><br>
+    <input type="text" placeholder="ID" name="strId">
+    <br><br>
+    <input type="submit" value="Search">
+</form>
+
+<br><br><br>
+<font color="black" size="4">
+    <a href="/enterData">Calculate your BMI</a>
+    <br><br>
+    <a href="/start">Welcome Page</a>
+    <br> <br> <br>
+</font>
+
+</body>
+</html>
